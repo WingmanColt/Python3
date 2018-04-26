@@ -20,16 +20,16 @@ bulletCount = 0
 # LOGIC
 while locksQueue.qsize() > 0 and len(bulletsStack) > 0:
 
-    bullet = bulletsStack.pop()
-    safeLock = locksQueue.get()
+   # bullet = bulletsStack.pop()
+   # safeLock = locksQueue.get()
 
-if bulletsStack.pop() <= locksQueue.get():
+#if bulletsStack.get() <= locksQueue.get():
    # locksQueue.dequeue()
-    print("Bang!")
-else:
-    print("Ping!")
+ #   print("Bang!")
+#else:
+ #   print("Ping!")
 
-shootCounter += 1
+    shootCounter += 1
 
 if shootCounter >= gunBarrelSize:
     shootCounter = 0
