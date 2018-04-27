@@ -22,7 +22,6 @@ def kangaroo(x1, v1, x2, v2):
 
     return sameLocationPossible
 
-
 # MAIN DECLARATIONS
 tokens_x1 = str(input())
 tokens_x1.split(' ')
